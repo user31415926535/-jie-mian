@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>01909462-f0c4-4a77-ad34-da2a87e41f98</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Firstwindow.py</StartupFile>
+    <StartupFile>启动文件.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,13 +21,11 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="123.py" />
     <Compile Include="Firstwindow.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="MainWinXinhaoyuCao.py" />
-    <Compile Include="module1.py">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="suibianshishi.py" />
     <Compile Include="启动文件.py">
       <SubType>Code</SubType>
@@ -37,8 +35,10 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="123.ui" />
     <Content Include="MainWinXinhaoyuCao.ui" />
     <Content Include="suibianshishi.ui" />
+    <Content Include="启动文件.ui" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
